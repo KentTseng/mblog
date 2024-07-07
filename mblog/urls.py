@@ -22,5 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello_world),
     path('add/<int:a>/<int:b>', add),  #新增
-
 ]
